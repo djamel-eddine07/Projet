@@ -1,3 +1,0 @@
-Nous avons d'abord comencer par une sorte de prérequis en faisant un premier programme qui va nous permettre de valider certains objectif qui sont les vecteurs, l'ecran de fenetre GUI et les mouvements de base. 
-Nous avons créer un cercle jaune qui fera office du pacman dans une fenetre et qui peut se déplacer de bas en haut ainsi que de gauche a droite à l'aide des touches du clavier. 
-Nous utiliserons les touches directionnelles pour déplacer Pacman. Pacman ne peut se déplacer que dans l'une des quatre directions suivantes : haut, bas, gauche et droite. Pacman ne peut se déplacer que dans l'une de ces directions à la fois, il ne se déplace jamais en diagonale.
