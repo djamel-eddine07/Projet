@@ -1,0 +1,2 @@
+Dans cette section, nous allons modifier son mouvement de manière à ce qu'il ne s'arrête sur un nœud que s'il ne peut pas continuer vers un autre nœud dans la direction dans laquelle il se déplace, sinon il dépassera le nœud.
+Nous le modifierons également pour qu'il puisse changer de direction à tout moment. 
