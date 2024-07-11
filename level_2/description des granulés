@@ -1,0 +1,4 @@
+Tout ce que nous allons faire, c'est remplacer le petit labyrinthe par un véritable labyrinthe Pacman. Ce labyrinthe est le même que celui que vous trouverez dans le premier jeu Pacman.
+Une chose que nous savons tous à propos de Pacman est qu'il mange beaucoup de boulettes. Les boulettes sont placées dans tout le labyrinthe et le but principal de Pacman dans la vie est de manger toutes les boulettes. En fait, c'est la seule façon de savoir si le joueur a terminé un niveau.
+Dans cette section, nous allons convaincre Pacman qu'il doit manger ces pastilles.
+Manger les pastilles est vraiment facile. Lors de chaque mise à jour de Pacman, nous devons simplement vérifier s'il est entré en collision avec l'une des pastilles. Pour ce faire, nous effectuons ce qu'on appelle une vérification de collision de cercle à cercle. Une vérification de collision de cercle à cercle est probablement l'une des vérifications de collision les plus simples et les plus rapides. 
