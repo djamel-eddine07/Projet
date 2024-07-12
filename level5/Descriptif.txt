@@ -7,6 +7,6 @@ ce qui inclut le chargement, le redimensionnement et l'affichage d'images à des
 3- Nous avons afficher le nombre de vies restantes de Pacman en ajoutant des icônes dans le coin inférieur gauche de l'écran. 
 Pour cela, nous extrairons une image de Pacman depuis une feuille de sprite et l'afficherons en fonction du nombre de vies restantes.
 
-4- NOus avons dessiner le labyrinthe, nous utiliserons les sprites appropriés depuis notre feuille de sprite.
+4- Nous avons dessiner le labyrinthe, nous utiliserons les sprites appropriés depuis notre feuille de sprite.
  Les images du labyrinthe sont situées sur le côté droit de la feuille et mesurent 16x16 pixels, contrairement
 aux autres sprites qui font 32x32 pixels. Nous n'avons pas besoin que tous les sprites aient la même taille sur la feuille.
