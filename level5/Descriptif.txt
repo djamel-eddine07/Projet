@@ -1,0 +1,12 @@
+1- Nous devons ajouter des éléments textuels dans notre jeu pour afficher des informations comme le score, 
+le niveau, et des messages d'état (prêt, pause, game over) à des positions spécifiques sur l'écran.
+
+2- Nous avons remplacer les primitifs graphiques de notre jeu Pacman par des images en utilisant Pygame, 
+ce qui inclut le chargement, le redimensionnement et l'affichage d'images à des positions spécifiques.
+
+3- Nous avons afficher le nombre de vies restantes de Pacman en ajoutant des icônes dans le coin inférieur gauche de l'écran. 
+Pour cela, nous extrairons une image de Pacman depuis une feuille de sprite et l'afficherons en fonction du nombre de vies restantes.
+
+4- NOus avons dessiner le labyrinthe, nous utiliserons les sprites appropriés depuis notre feuille de sprite.
+ Les images du labyrinthe sont situées sur le côté droit de la feuille et mesurent 16x16 pixels, contrairement
+aux autres sprites qui font 32x32 pixels. Nous n'avons pas besoin que tous les sprites aient la même taille sur la feuille.
