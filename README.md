@@ -4,3 +4,4 @@ SECTIONS :
 Commencer
 
 ![pre-requis](./images_readme/commencer.png)
+nous créons une classe Vector, ouvrons une fenêtre de base et déplaçons un personnage sur l'écran.
