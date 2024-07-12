@@ -44,3 +44,9 @@ Level_final
 ![pre-requis](./images_readme/level_final.png)
 
 Nous ajoutons quelques touches finales comme plus de labyrinthes et la mort du pacman.
+
+Menu 
+
+![pre-requis](./images_readme/menu.png)
+
+Ici vous pouvz voir le menu d'acceuil lors de l'éxécution du code. On y insert son nom de joueur et ensuite il faut cliquer sur start pour lancer le jeu.
