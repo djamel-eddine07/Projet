@@ -1,0 +1,20 @@
+Nous avons tout mis en place pour un fantôme générique. Ajoutons maintenant trois autres fantômes et donnons-leur des noms. Nous allons également rendre les quatre fantômes uniques à leur manière. Les quatre fantômes s'appellent Blinky , Pinky , Inky et Clyde . Nous pouvons nommer nos fantômes comme nous le souhaitons, mais nous nous en tiendrons à l'histoire. La seule différence visuelle entre les fantômes est leur couleur. Blinky est ROUGE , Pinky est ROSE , Inky est BLEUE et Clyde est ORANGE . Encore une fois, nous pouvons leur donner la couleur que nous voulons, mais nous nous en tiendrons plus ou moins à leur état d'origine. Nous nous occuperons d'abord des fantômes dans leur ensemble, puis nous deviendrons plus intimes et traiterons chacun d'eux individuellement.
+Nous allons créer une classe pour chaque fantôme et nous allons mettre toutes les classes dans le fichier ghosts.py. Placez ces classes après la classe Ghost car ces classes hériteront de la classe Ghost.
+Les fantômes se déplacent vers leurs coins respectifs avant de commencer les phases de DISPERSION/POURSUITE.
+Pacman mange une pastille de puissance et touche un fantôme, ce dernier retourne à la maison des fantômes.
+Le fruit est un concept assez simple. C'est juste un objet qui apparaît à un certain moment du niveau. Si Pacman entre en collision avec lui, il obtient des points. Si Pacman n'entre pas en collision avec lui dans un certain laps de temps, le fruit disparaît. Le fruit apparaît deux fois à chaque niveau. Le fruit peut être différent pour chaque niveau successif et rapporter de plus en plus de points plafonnant à une certaine valeur.
+Nous contrôlerons la mise en pause et la reprise du jeu avec la barre d'espace. 
+Voici une liste d'événements qui entraînent une pause dans le jeu :
+
+- Le joueur appuie sur la barre d'espace. Si le jeu est déjà en pause, cela réactive simplement le jeu. Cela agit simplement comme un basculement entre la pause et la reprise à chaque fois que la barre d'espace est enfoncée.
+- Pacman mange un fantôme. Le jeu ne s'arrête que pendant une seconde, il doit donc y avoir une sorte de minuteur. Une fois la pause terminée, le jeu reprend automatiquement.
+- Le jeu est mis en pause au début d'un niveau. Le joueur doit ensuite appuyer sur la barre d'espace pour reprendre la pause et continuer le jeu.
+- Niveau terminé. Nous n'y sommes pas encore, mais lorsque Pacman termine un niveau, le jeu s'arrête pendant quelques secondes avant de passer au niveau suivant.  
+- Mort de Pacman. Encore une fois, nous n'en sommes pas encore là, mais lorsque Pacman meurt, le jeu s'arrête pendant quelques secondes pour montrer son animation de mort.
+
+Ce que nous allons faire ici, c'est faire mourir Pacman s'il entre en collision avec un fantôme qui n'est pas en mode FRET ou APPARITION. Cela signifie plusieurs choses.
+
+- Lorsque Pacman meurt, le jeu se met en pause pendant 3 secondes.
+- Lorsque Pacman meurt, le niveau doit être réinitialisé, à l'exception des plombs.  
+- Nous devons donner quelques vies à Pacman, disons 5.  
+- Si toutes ces vies sont perdues, alors le jeu est terminé.
